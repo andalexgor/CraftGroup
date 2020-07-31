@@ -288,7 +288,7 @@ a{
                } 
                .choose-step{
                 margin: -10px;
-                padding: 15px 35px;
+                padding: 10px 30px;
                 border-radius: 30px;
                 background: white;
                 box-shadow: 0px 8px 21px -2px #3CBA7A;
@@ -346,6 +346,9 @@ a{
                     transition: 0.5s ease all;
                     transform: scale(1.1);
 
+                }
+                .disabled{
+                    background-color: rgba(0, 0, 0, 0.3) !important;
                 }
             }
         }
@@ -627,6 +630,9 @@ a{
             justify-content: center;
             
            
+        }
+        .choose-step{
+            margin: 10px 0;
         }
     }
 .right-content{

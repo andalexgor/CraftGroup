@@ -176,9 +176,9 @@
 
           <div class="validations-form">
             <form action="#" method="GET" id="validtations-form">
-              <input type="text" name="first-name" required placeholder="Enter First Name">
-              <input type="text" name="last-name" required placeholder="Enter Last Name">
-              <input type="email" name="email" required placeholder="Enter Email">
+              <input data-rule="first-name" class="" type="text" name="first-name" required placeholder="Enter First Name">
+              <input data-rule="last-name" class="disabled" type="text" disabled name="last-name" required placeholder="Enter Last Name">
+              <input data-rule="client-email" class="disabled" type="email " disabled name="email" required placeholder="Enter Email">
 
               <button type="submit" value="submit" form="validtations-form">Next</button>
             </form>
