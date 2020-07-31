@@ -51,11 +51,10 @@ counter();
 
 
 
-const inpForms = document.querySelectorAll('input[data-rule]')
+const inpForms = document.querySelectorAll('.inp-form')
 const stepForms = document.querySelectorAll('.step__items')
 for (let input of inpForms) {
-  input.addEventListener( 'keyup', function () {
-    let rule = this.dataset.rule
+  input.addEventListener( 'input', function () {
     let value = this.value
 
 
