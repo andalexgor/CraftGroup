@@ -37,7 +37,7 @@ const counter = function () {
       if (direction === 'plus') {
         newValue = currentValue + 1;
       } else {
-        newValue = currentValue - 1 > 0 ? currentValue - 1 : 0;
+        newValue = currentValue - 1 > 1 ? currentValue - 1 : 1;
       }
 
       inp.value = newValue;
